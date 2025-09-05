@@ -1,0 +1,52 @@
+# Assignment 2: Programming Languages  
+**Score:** 9 / 10  
+---
+## Questions and Answers  
+
+### Scratch Project  
+**URL:** https://scratch.mit.edu/projects/1213154472  
+
+### Pseudocode: Peanut Butter and Jelly Sandwich  
+1. Put a plate on the table.  
+2. Take two slices of bread from the loaf and place them on the plate.  
+3. Open the peanut butter jar and spread some peanut butter on one slice using the knife.  
+4. Open the jelly jar and spread some jelly on the other slice.  
+5. Put the two slices together so that peanut butter and jelly are inside.  
+6. Close both jars.  
+7. Place the sandwich on the plate.  
+8. End.  
+
+### What is a Boolean expression?  
+A Boolean expression is a logical statement that can only evaluate to **true** or **false**.  
+
+**Example (pseudocode):**  
+```pseudocode
+if (x > 10) then
+   print "x is greater than 10"
+end if
+
+### What does it mean to compile a program?
+
+Compiling a program means translating the code a programmer writes (in a language like C or Java) into the machine code of zeros 
+and ones that the computer’s processor can understand and run directly.
+
+### What do we mean by pseudorandom?
+
+When we say that a computer is not truly random, we mean that it always follows exact instructions and algorithms.
+ Instead of real randomness, it uses algorithms to generate numbers that look random but are actually deterministic. These are called pseudorandom numbers.
+
+### Difference between source code and machine code
+
+Source code: The code a programmer writes in a human-readable language like Python, C, or Java.
+
+Machine code: The translated version of that code, written in zeros and ones, which the computer’s processor can actually execute.
+
+### Reflection
+
+In this assignment, I explored programming concepts both visually (through Scratch) and textually (through pseudocode and theory questions).
+Working with Scratch was a valuable experience because it allowed me to see how programming logic comes to life in a visual and interactive way. 
+By combining conditions, loops, variables, and sounds, I was able to build a small project that was not only functional but also engaging.
+This helped me better understand how even simple building blocks can create more complex behaviors.
+require extremely precise instructions. Unlike humans, they cannot infer missing steps, which made me more aware of the importance of clarity in problem-solving.
+The theoretical questions reinforced key concepts such as Boolean logic, the compilation process, the deterministic nature of pseudorandom numbers, and the difference
+ between source code and machine code. These ideas are fundamental for bridging the gap between human thinking and computer execution.
