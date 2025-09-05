@@ -1,7 +1,9 @@
-# CS50 Business - Assignment 1: Computational Thinking
+# Assignment 01: Computational Thinking
 
-## GitHub Username
-**naderehalaj-dot**
+**Score:** 7/10   
+**Course:** CS50’s Computer Science for Business Professionals
+---
+## Questions and Answers
 
 # Q1. What's the largest decimal number that you can represent with 5 bits?
 **A:** 31
@@ -46,3 +48,8 @@ Binary search requires the list to be **sorted**. If the list is unsorted, I mus
 # Q9. Why use a linked list instead of an array?
 **A:**  
 When data size is not fixed or changes often. Linked lists allow easy insertion/deletion without shiftin
+
+# Reflection
+
+Working on this assignment gave me a deeper understanding of how fundamental computer science concepts apply to real-world problem solving. I realized that breaking problems down into smaller, manageable steps (like in algorithm design or bucketizing) is a universal skill, not only for programming but also for business and decision-making.
+I also learned the importance of abstraction—focusing on what matters most while ignoring unnecessary details. This helps reduce complexity and allows for clearer thinking when faced with challenges
