@@ -1,0 +1,56 @@
+# Internet Technologies - CS50B
+
+**Student:** Nadere Halajpour  
+**edX Username:** MH_2407_OK0A  
+**Email:** naderehalaj@gmail.com  
+
+---
+
+## Assignment Questions and Answers
+
+### 1. What does a DHCP server do?
+A DHCP server automatically assigns IP addresses and other network settings like subnet mask, default gateway, and DNS servers, to devices on a network, so they can communicate without needing manual 
+configuration.
+
+### 2. During a traceroute, sometimes the entirety of an entry will be an asterisk. Why is that?
+In a traceroute, an asterisk means that the router at that hop did not respond to the probe. This can happen because the router is configured to ignore traceroute requests, because of firewall rules,
+ rate limiting, or simply because the reply was lost. The data can still be passing through the router normally, it just didn’t send back a response.
+
+### 3. HTTP Response Codes
+**Examples:**  
+- **200 OK**: The request was successful and the server returned the requested resource.  
+- **301 Moved Permanently**: The resource has been permanently moved to a new URL, and the client should use the new location in the future.
+
+### 4. Provide a specific reason why packets could be lost between a sender and receiver.
+Packets can be lost if a router becomes overloaded with too much traffic. When its buffer is full, it has no choice but to drop some packets.
+
+### 5. How does a server know whether a packet is email, website request, instant message, etc.?
+The server knows by looking at the **port number** in the packet, which tells it whether the data is for the web, email, messaging, or another service.
+
+### 6. In what sense are domain names similar to phone numbers like 1-800-COLLECT or 1-800-FLOWERS?
+Domain names are like phone numbers with words because they’re easier to remember. Just as 1-800-FLOWERS maps to a real phone number, a domain name maps to an IP address.
+
+### 7. Identify a problem that IPv6 is attempting to solve.
+IPv6 is designed to solve the problem of running out of IP addresses in IPv4 by providing a much larger address space.
+
+### 8. Provide an example of a circumstance where you might prefer that your computer use UDP rather than TCP for sending packets.
+UDP is preferred in situations where speed is more important than reliability, such as streaming video, online gaming, or live broadcasts, because it doesn’t wait to resend lost packets like TCP does.
+
+### 9. Distinguish bandwidth and latency in your own words.
+- **Bandwidth**: How much data can move at once.  
+- **Latency**: How long it takes to start moving data.
+
+### 10. What does it mean if a URL begins with https:// as opposed to http://?
+Both are easier to remember than numbers. Domain names map to IP addresses, just like words in phone numbers map to digits.
+HTTPS means the communication is encrypted and secure, while HTTP is unencrypted.
+
+---
+
+## Reflection
+
+During this course, I learned how different components of the internet work together to deliver content reliably and efficiently. I now understand how IP addresses, domain names, HTTP protocols, TCP/UDP,
+ and routers all play crucial roles in making the internet functional. I also gained insight into network troubleshooting tools like traceroute and the importance of protocols in ensuring data integrity and
+ security. Overall, this course strengthened my understanding of the technical backbone of the internet and its underlying technologies.
+
+---
+
