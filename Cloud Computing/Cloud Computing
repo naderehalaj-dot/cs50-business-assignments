@@ -1,0 +1,76 @@
+# Cloud Computing - CS50B
+
+**Student:** Nadere Halajpour  
+**edX Username:** MH_2407_OK0A  
+**Email:** naderehalaj@gmail.com  
+
+---
+
+## Assignment Questions and Answers
+
+### 1. What is "the cloud"?
+
+The cloud essentially means outsourcing the hosting of our applications and servers to other companies. In simple terms, it’s a place outside our own computer where we can store and use our files, 
+programs, and services without worrying about servers or software installation. The main advantage is that we don’t need to invest heavily in hardware, we can scale quickly, and we can access advanced 
+resources and storage, all without having to manage the technical details ourselves.
+
+### 2. How does a load balancer allow a website to scale?
+
+A load balancer works like a traffic director for a website, spreading user requests across multiple servers. This prevents any single server from getting overloaded and keeps the site fast and stable
+as more users join, making it easy to add new servers to scale.
+
+### 3. What is caching? What is a potential downside?
+
+Caching is when a website or application temporarily stores frequently used data so it can be accessed faster next time without fetching it again from the main server. for example a potential downside is
+that if the original data changes, users might see outdated or incorrect information because the cache hasn’t been updated yet.
+
+### 4. Why might it make more sense to scale a website using multiple low-end servers instead of just one high-end server?
+
+Using several- low end servers usually makes more sense than relying on a single high-end server because it’s cheaper, more resilient for example if one server fails the site still works, and easier to 
+scale up or down as user demand changes. It also avoids the limitations of a single machine.
+
+### 5. How is a virtual machine different from a physical machine?
+
+A virtual machine behaves like a real computer, with its own operating system and applications, but it actually runs on a physical machine. The physical machine provides the hardware like CPU, memory, and
+storage but the virtual machine shares these resources with other virtual machines. Unlike a real physical machine, a virtual machine can be quickly created, copied, or deleted, and multiple virtual machines
+can run on a single physical machine.
+
+### 6. Virtualization vs. Containerization
+
+Virtualization and containerization are both ways to run multiple environments on the same computer, but the difference is that in virtualization, each virtual machine has its own operating system 
+and is heavier, while in containerization, all containers share the host OS kernel and only isolate their applications and dependencies. This makes containers lighter, faster, and easier to scale.
+
+### 7. What is autoscaling?
+
+Autoscaling means that our system can automatically add more servers when traffic or users increase, and remove them when demand drops. This way, our website or app can handle users smoothly without we 
+manually managing servers, and we don’t waste resources.
+
+### 8. What does it mean to shard a database?
+
+Sharding a database means splitting it into smaller pieces, where each piece holds only a part of the data. This way when the number of users grows, the system can handle the load more easily without putting
+all the pressure on a single large database.
+
+### 9. Suppose that you work for an internet startup. Argue in a short paragraph why your startup SHOULD use cloud computing for its infrastructure
+
+For our startup using cloud computing just makes sense because we don’t have to worry about managing servers or hardware, and we can focus entirely on our product. Whenever the number of users grows or we
+need more resources, we can easily scale up or down without spending a fortune. meanwhile we get access to powerful resources and storage that would be expensive to set up ourselves. Overall, the cloud lets 
+us move faster, stay flexible, and provide a reliable service to our users.
+
+### 10.Suppose that you work for an(other) internet startup. Argue in a short paragraph why your startup should NOT use cloud computing for its infrastructure.
+
+Cloud computing isn’t always the best choice. If our startup handles very sensitive data or operates under strict regulations, relying on someone else’s servers can be risky. Costs can also grow significantly
+as traffic and users increase. Additionally, depending on a cloud provider means any outage or issue on their side affects our service. Sometimes managing our own infrastructure gives us more control, stability,
+and can even be more cost effective in the long run.
+
+---
+
+## Reflection
+
+In this part of the course, I learned how cloud computing works and why it is such an important part of modern infrastructure. Concepts like **load balancing, caching, autoscaling, and sharding** showed me how
+large websites stay reliable and fast even with millions of users. I found it especially interesting to see the difference between **virtualization and containerization**, since these are technologies I had hear
+d of but never fully understood before.  
+
+What I liked most was realizing how the cloud makes it easier for startups to focus on their product instead of servers, while also learning about the trade-offs and risks of relying too much on cloud providers.
+Overall, this assignment helped me better understand the balance between cost, scalability, and control in building web applications.  
+
+---
