@@ -1,5 +1,7 @@
 # Internet Technologies - CS50B
 
+**Score:** 10/10 
+
 **Student:** Nadere Halajpour  
 **edX Username:** MH_2407_OK0A  
 **Email:** naderehalaj@gmail.com  
