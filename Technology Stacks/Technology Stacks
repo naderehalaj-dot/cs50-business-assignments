@@ -1,0 +1,79 @@
+# Internet Technologies - CS50B (Backend & Frameworks)
+
+**Student:** Nadere Halajpour  
+**edX Username:** MH_2407_OK0A  
+**Email:** naderehalaj@gmail.com  
+
+---
+
+## Assignment Questions and Answers
+
+### 1. In addition to choosing a language in which to implement some project, it's not uncommon to choose a "framework" for that language as well. What is a framework and what types of 
+problems does one tend to solve?
+
+A framework is essentially a ready made structure for programming that helps us write code faster and cleaner. Instead of building everything from scratch, it provides commonly used features
+like user management, database connections, or form handling. It also gives our project an organized structure so the code does not become messy .This way development is faster, errors are reduced,
+and future maintenance or updates are easier. In short, a framework saves time while improving the quality, reliability, and security of our project.
+
+### 2.Recall that Bootstrap is a "front-end" framework, specifically for CSS and JavaScript. Take a look at https://getbootstrap.com/ to get a sense of Bootstrap's features. Describe at least one 
+problem that Bootstrap solves (or, equivalently, a features that Bootstrap offers).
+
+Bootstrap is a framework for building web pages that helps make them look good and work well on both mobile and desktop indeed helps to be responsive. It also provides ready made components like buttons
+and forms that are easy to use.
+
+### 3. In a few sentences, distinguish between a website's front end and its back end.
+
+A website’s front end is what users see and interact with in their browser, like buttons, text, images, and layout. It’s built using languages like HTML, CSS, and JavaScript.
+The back end is what happens on the server, handling things like storing data, processing requests  and running the logic behind the website, usually using languages like Python or Java 
+
+
+### 4. With so many languages from which to choose for a website's back end (among them C#, Java, JavaScript, PHP, Python, Ruby, et al.), what factor(s) might drive you to choose one over another?
+
+When choosing a programming language for a website's back end, a few things matter: which languages our team is comfortable with, what our site or app needs to do , what libraries and tools the language
+offers, and how easy it will be to maintain and expand the site in the future.
+
+### 5. Suppose that you have an option to host your company's website in the cloud on a server running Linux or on a server running Windows, both of which are operating systems. Why might you want to choose one over the other?
+
+When deciding between hosting our website on Linux or Windows, factors like our team's familiarity with each operating system, ease of maintenance, the software or frameworks our site requires 
+for example some work better on Linux, others on Windows. licensing costs, and how well each option integrates with our cloud services can all matter. In short, the goal is to choose the option 
+that best fits our technical needs, budget, and team skills.
+
+### 6. What are CRUD operations?
+CRUD operations are the basic actions we can perform on data in a database. The letters stand for Create, Read, Update, and Delete. These four actions represent the main ways we interact with 
+a database to keep information accurate and up to date.
+
+### 7.Suppose that you'd like to store your customers in a relational database. Beyond a customer's name, what other fields (i.e., columns) might you want to store for each customer, and what would the
+data types of those fields be?
+
+Besides name:  
+- **Address, City, State, Country, Email:** `VARCHAR`  
+- **Zip Code:** `VARCHAR` or `CHAR` (to preserve leading zeros)  
+- **Phone Number:** `VARCHAR` or `INTEGER` (depending on format)  
+
+### 8. What is a foreign key and why use one?
+
+A foreign key is a column in one table that points to the primary key in another table. It helps us link related data, like figuring out which order belongs to which customer, keeping the database organized 
+and reducing duplicate or incorrect information.
+
+### 9. In the context of mobile, what characteristic(s) distinguish native apps and web apps from each other?
+
+Native apps are built for a specific platform, like iOS or Android, so they usually run faster and smoother, and feel more like a real app. Web apps, on the other hand, run inside a browser and work on
+all devices, but they can sometimes be a little slower and don't quite feel like a real app.
+
+### 10. When to use SQL vs. NoSQL
+If the data is structured, relational, and predictable, SQL is better. But if the data is unstructured, large, or changing, NoSQL is easier.
+
+
+---
+
+## Reflection & Feedback
+
+So far, I find the course **just right** in difficulty. I am getting out of it **what I hoped**, mostly.  
+
+I really appreciate the **step-by-step explanations and practical examples**, like the store and customer tables. These examples make abstract concepts easier to understand. My suggestion is to keep the 
+examples clear and simple; sometimes explanations get long and slightly confusing, so shorter examples would be even better.  
+
+Overall, I enjoy the course methodology and find the content interesting, practical, and easy to follow.
+
+---
+
